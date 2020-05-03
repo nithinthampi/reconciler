@@ -1,10 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOMMini from './react-dom-mini';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(
+ReactDOMMini.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
